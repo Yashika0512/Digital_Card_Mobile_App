@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/pic3">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="75dp"
+        android:paddingRight="10dp"
+        android:text="DIGITAL CARD"
+        android:textAlignment="center"
+        android:textColor="#46464A"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:id="@+id/t1"/>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="80dp"
+        android:paddingRight="20dp"
+        android:text="SIGNIN PAGE"
+        android:textAlignment="center"
+        android:textColor="#DD1111"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/im2"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/signin"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/t2"/>
+    <EditText
+
+        android:id="@+id/editTextUserName"
+
+        android:hint="User Name"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/im2"
+
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_below="@+id/editTextUserName"
+        android:inputType="textPassword" />
+
+
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:layout_below="@+id/editTextPassword"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="MobileNumber"
+        android:layout_below="@+id/editTextConfirmPassword"
+        />
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:layout_below="@+id/e1"
+        />
+
+
+
+    <Button
+
+        android:id="@+id/buttonCreateAccount"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN "
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_below="@+id/e2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp" />
+
+</RelativeLayout>

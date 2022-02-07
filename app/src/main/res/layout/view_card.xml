@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic3"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CARD NUMBER DETAILS"
+        android:id="@+id/tit"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+
+
+    <EditText
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Ur Mobile Number"
+        android:padding="15dp"
+        android:textColor="#131313"
+        android:textColorHint="#1D1C1E"
+        android:textSize="30dp"
+        android:layout_below="@+id/tit"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="100dp"
+        android:layout_marginTop="40dp"
+        android:background="#FF0000"
+        android:onClick="submit"
+        android:text="GET DETAIL"
+        android:textColor="#00FFFF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/view1"/>
+</RelativeLayout>

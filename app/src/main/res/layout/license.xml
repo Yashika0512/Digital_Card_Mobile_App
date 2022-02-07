@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic3"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LICENSE DETAILS"
+        android:id="@+id/tit"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Card No:"
+        android:id="@+id/te1"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tit"
+        android:textColor="#808080"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edi21"
+        android:layout_below="@+id/te1"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:id="@+id/te22"
+        android:layout_below="@id/edi21"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#808080"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edi22"
+        android:layout_below="@+id/te22"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="License no :"
+        android:id="@+id/te23"
+        android:layout_below="@id/edi22"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#808080"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edi23"
+        android:layout_below="@+id/te23"
+        android:textColor="#000"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valid Upto :"
+        android:id="@+id/te24"
+        android:layout_below="@id/edi23"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#808080"
+        />
+
+    <EditText
+        android:id="@+id/edi24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:layout_below="@+id/te24"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address :"
+        android:id="@+id/te25"
+        android:layout_below="@id/edi24"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#808080"
+        />
+
+    <EditText
+        android:id="@+id/edi25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@+id/te25"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pincode:"
+        android:id="@+id/te26"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#808080"
+        android:layout_below="@id/edi25"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edi26"
+        android:layout_below="@+id/te26"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone no :"
+        android:id="@+id/te27"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#808080"
+        android:layout_below="@id/edi26"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edi27"
+        android:layout_below="@+id/te27"
+        android:textColor="#000"
+        android:inputType="number"
+        />
+
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edi27"
+        android:layout_centerHorizontal="true"
+        android:text="Submit"
+        android:id="@+id/licenseadd"/>
+
+</RelativeLayout>

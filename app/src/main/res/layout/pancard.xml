@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic3"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PANCARD DETAILS"
+        android:id="@+id/tit"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Card No:"
+        android:id="@+id/te11"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#808080"
+        android:layout_below="@+id/tit"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edi11"
+        android:layout_below="@+id/te11"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:id="@+id/te12"
+        android:layout_below="@id/edi11"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#808080"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edi12"
+        android:layout_below="@+id/te12"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pan number :"
+        android:id="@+id/te13"
+        android:layout_below="@id/edi12"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#808080"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edi13"
+        android:layout_below="@+id/te13"
+        android:textColor="#000"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address :"
+        android:id="@+id/te15"
+        android:layout_below="@id/edi13"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#808080"
+        />
+
+    <EditText
+        android:id="@+id/edi15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@+id/te15"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pincode:"
+        android:id="@+id/te16"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#808080"
+        android:layout_below="@id/edi15"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edi16"
+        android:layout_below="@+id/te16"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone no :"
+        android:id="@+id/te17"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#808080"
+        android:layout_below="@id/edi16"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edi17"
+        android:layout_below="@+id/te17"
+        android:textColor="#000"
+        android:inputType="number"
+        />
+
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edi17"
+        android:layout_centerHorizontal="true"
+        android:text="Submit"
+        android:id="@+id/panadd"/>
+
+</RelativeLayout>
